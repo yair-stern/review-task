@@ -20,6 +20,6 @@ the table below shows the Instructions for using the app by the client app: whic
 |retrieve the entier list message|get|/${ip}:${port}/api/isPalindromText|http://localhost:3000/api/isPalindromText|
 
 # palindrom
-the app checks the whether or not a message is a palindrome. the result saved as a boolyan property of the message.
+the app checks the whether or not a message is a palindrome. the result saved as a boolean property of the message.
 the definition of palindrom refers to each character, so "abcdcba" is a palindrom, but "PULL AP" is not. if you want, you can change the code to make it count, by use two pointers that skip a character when it is white.
 the empty string, "", is palindrom.
